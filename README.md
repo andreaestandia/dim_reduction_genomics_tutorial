@@ -1,5 +1,7 @@
-# Principal component analysis of genomic data in Python
+# Dimensionality reduction of genomic data in Python
 ## Andrea Estandia - University of Oxford
+
+In this tutorial we will learn how to do a **Principal Component Analysis (PCA)** of genomic data. We will also learn how to reduce dimensionality using a machine learning approach for non-linear data, called **UMAP** (Uniform Manifold Approximation and Projection for Dimension Reduction).
 
 ### Set up
 #### Create a Python environment
@@ -40,7 +42,7 @@ vcf-query -l myfile.vcf > list_names.txt
 
 Now you have the names of your samples in `list_names.txt`. You can add the names of your populations in another column and add headers (e.g. "sample" and "pop", as used here).
 
-Now open a new file in a code editor (VScode is great), a Jupyter notebook or just a text file and save it as a .py file. For example, my file will be called `tutotial_pca.py`. From now on you can forget about using the terminal, we will mainly be working on this file.
+Now open a new file in a code editor (VScode is great), a Jupyter notebook or just a text file and save it as a .py file. For example, my file will be called `tutorial_pca.py`. From now on you can forget about using the terminal, we will mainly be working on this file.
 In your new .py file, paste the code below. These modules should have been installed via conda beforehand.
 
 #### Import your modules 
