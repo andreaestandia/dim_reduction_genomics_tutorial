@@ -237,7 +237,7 @@ np_trans= np.transpose(genotype_mat)
 genotype_mat_edited = np.nan_to_num(np_trans)
 ~~~
 
-4. Run UMAP with 3 components. You can vary the number of neighbors and the minimum distance between them. This give more weight to local or global structure depending on the combination you choose
+4. Run UMAP with 3 components. You can vary the number of neighbors and the minimum distance between them. This gives more weight to local or global structure depending on the combination you choose
 
 ~~~
 umap_3d = umap.UMAP(n_components=3, n_neighbors=100, min_dist=0.2)
